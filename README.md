@@ -1,4 +1,4 @@
-This is a Huawei-SmartMeter Module for MagicMirror
+This is a Huawei-SmartMeter Module for <a href="https://magicmirror.builders/">MagicMirror²<a/>
 
 <img src="img/MagicMirror_modules_MMM-HuaweiSolar.png">
 
