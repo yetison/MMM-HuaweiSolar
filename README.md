@@ -1,9 +1,9 @@
-This is a Huawei-SmartMeter Module for <a href="https://magicmirror.builders/">MagicMirror²<a/>
+##This is a Huawei-SmartMeter Module for <a href="https://magicmirror.builders/" target="_blank">MagicMirror²<a/>
 
 <img src="img/MagicMirror_modules_MMM-HuaweiSolar.png">
 
 For reading the data of your solar system, an esp8226 D1 mini is needed. the esp32 is connected to raspberry pi by uart.
-this way is to prefer. the huawei equipment is connected to the guest-wlan while your raspberry is in your private wlan ,-)
+this way is to prefer. the huawei equipment is connected into guest-wlan while your raspberry is in your private wlan ,-)
 
 you have to add following line to your /boot/firmware/config.txt on raspberry to enable the uart on pin 26/13
 
