@@ -1,3 +1,7 @@
+//
+// created by yetison in 2026
+// version: 0.1
+//
 #include <ESP8266WiFi.h>
 #include <ModbusIP_ESP8266.h> // Von Alexander Emelianov
 #include <SoftwareSerial.h>
