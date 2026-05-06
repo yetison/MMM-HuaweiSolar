@@ -7,7 +7,7 @@ this way is to prefer. the huawei equipment is connected to the guest-wlan while
 
 you have to add following line to your /boot/firmware/config.txt on raspberry to enable the uart on pin 26/13
 
-# # overlay for uart at gpio 26/13 for esp32 bridge zu huawei
+#\ overlay for uart at gpio 26/13 for esp32 bridge zu huawei
 dtoverlay=uart1-pi5
 
 SoftwareSerial for Raspberry Pi 5 (TX at GPIO 26 / RX at GPIO 13 of Pi)
