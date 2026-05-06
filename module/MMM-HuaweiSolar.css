@@ -1,0 +1,44 @@
+.huawei-container {
+    min-width: 15rem; /* Nutzt rem für relative Breite */
+}
+
+.solar-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.2rem;
+}
+
+/* Bezeichnungen (links) - Standardfarbe und -grösse */
+.huawei-container .label {
+    color: #999;
+    text-align: left;
+}
+
+/* Werte (rechts) - Standard-Helligkeit des Spiegels */
+.huawei-container .value {
+    font-weight: 700;
+    text-align: right;
+    white-space: nowrap;
+    margin-left: 1rem;
+}
+
+/* Spezifische Farben für den Netzfluss bleiben erhalten */
+.huawei-container .is-export .value {
+    color: #00ff00;
+}
+
+.huawei-container .is-import .value {
+    color: #ff4444;
+}
+
+/* --- NEU: Ergänzung für die Quartals-Statistik --- */
+.huawei-container .solar-header {
+    font-weight: 700;
+    color: #666;
+    margin-top: 0.8rem;
+    margin-bottom: 0.3rem;
+    border-bottom: 1px solid #444;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
